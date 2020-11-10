@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42f17cde-3fad-43ce-8961-4c15499b7193" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1jxa0HUn7qbDJyzEbD9BfWUydFF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHP Essentials/017_Работа с обьектом как с массивом" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dest2\Desktop\itvdn\PHP Essentials\017_Работа с обьектом как с массивом" />
+      <recent name="C:\Users\dest2\Desktop\itvdn\PHP Essentials\016_SPL" />
+      <recent name="C:\Users\dest2\Desktop\itvdn\PHP Essentials\015_Рефлексия" />
+      <recent name="C:\Users\dest2\Desktop\itvdn\PHP Essentials\014_Шаблоны проектирования 2" />
+      <recent name="C:\Users\dest2\Desktop\itvdn\PHP Essentials\013_Composer" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42f17cde-3fad-43ce-8961-4c15499b7193" name="Default Changelist" comment="" />
+      <created>1604747971299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604747971299</updated>
+      <workItem from="1604747975264" duration="2052000" />
+      <workItem from="1604930416663" duration="7086000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1604955394603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824/10.-1080.1920.1040@0.0.1536.824" timestamp="1604955394603" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1604932029426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/10.-1080.1920.1040@0.0.1536.824" timestamp="1604932029426" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604955247615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/10.-1080.1920.1040@0.0.1536.824" timestamp="1604955247615" />
+  </component>
+</project>
