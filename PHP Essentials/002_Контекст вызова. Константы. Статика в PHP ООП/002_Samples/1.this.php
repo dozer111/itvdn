@@ -1,28 +1,29 @@
 <?php
 
-// константы, пример 2
+// $this - ссылка на обьект
+// отображает данные, доступные в
+// "контексте текущего обьекта"
+class ConcertTickets{
+    public $name = 'AC/DC';
 
-class Color
-{
-    const BLACK = '#000';
-    const WHITE ='#fff';
-    const GOLD = '#FFD700';
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function get2Tickets($ticket)
+    {
+        var_dump(
+            $this->getName(),
+            $ticket->getName()
+        );
+    }
 }
 
-class Car{
-    public $mark;
-    public $color;
-}
+$tickets = new ConcertTickets();
+$anotherTickets = new ConcertTickets();
+$anotherTickets->name = 'DC/AC';
 
-$car1 = new Car();
-$car1->mark = 'Toyota';
-$car1->color = Color::BLACK;
-
-
-$car2 = new Car();
-$car2->mark = 'Mazda';
-$car2->color = Color::GOLD;
-// ВЫВОД:
-// Вместо того, чтобы "гадать", а правильным ли будет значение "white",
-// Мы создаём ряд нужных заготовленных констант, и используем их
-// как проверенный источник информации
+$tickets->get2Tickets($anotherTickets);
+// И, как мы видим, у обьекта $tickets свой контекст
+// и у $anotherTickets тоже свой контекст
