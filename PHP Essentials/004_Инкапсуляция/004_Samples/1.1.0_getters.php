@@ -6,12 +6,12 @@ class User{
     private $username;
     private $phone;
 
-    public function setPhone($phone): void
+    public function setPhone($phone)
     {
         $this->phone = $phone;
     }
 
-    public function setUsername($username): void
+    public function setUsername($username)
     {
         $this->username = $username;
     }
