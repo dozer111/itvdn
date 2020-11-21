@@ -11,6 +11,8 @@ trait Translate
     {
         return $this->title.'RU!!!';
     }
+
+    // допустим, что здесь выбирается английский вариант title
     public function getEn()
     {
         return $this->title.'EN!!!';
