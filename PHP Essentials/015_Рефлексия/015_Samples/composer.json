@@ -1,0 +1,17 @@
+{
+    "name": "alex/013_composer",
+    "authors": [
+        {
+            "name": "dozer111",
+            "email": "alkhonko@gmail.com"
+        }
+    ],
+    "require": {
+        "myclabs/php-enum": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
