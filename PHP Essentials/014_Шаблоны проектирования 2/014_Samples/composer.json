@@ -1,0 +1,17 @@
+{
+    "name": "alex/013_composer",
+    "authors": [
+        {
+            "name": "dozer111",
+            "email": "alkhonko@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
