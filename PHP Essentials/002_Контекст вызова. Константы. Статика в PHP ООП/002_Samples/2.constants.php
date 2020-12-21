@@ -22,3 +22,4 @@ $car1->color = Color::BLACK;
 $car2 = new Car();
 $car2->mark = 'Mazda';
 $car2->color = Color::GOLD;
+

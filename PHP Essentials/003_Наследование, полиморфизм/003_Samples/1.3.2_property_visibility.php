@@ -27,8 +27,10 @@ class User extends Human{
     {
         return [
             $this->friendsName,
-            $this->secret // FATAL ERROR, приватная переменная не передалась в класс User
+            // FATAL ERROR, приватная переменная не передалась в класс User
             // сейчас, класс User не имеет такой переменной
+            $this->secret
+
         ];
     }
 

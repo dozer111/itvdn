@@ -11,7 +11,8 @@ interface Storage
 
 class FileStorage implements Storage
 {
-    // ОБЯЗАТЕЛЬНОЕ переопределение методов интерфейса внутри
+    // ОБЯЗАТЕЛЬНОЕ переопределение
+    // методов интерфейса внутри
     public function save()
     {
         echo "save";

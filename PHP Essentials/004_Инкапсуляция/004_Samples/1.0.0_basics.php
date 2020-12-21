@@ -9,9 +9,9 @@
 class User
 {
     // ЗАКРЫТЫЕ внутри контекста класса свойства
-    public $name;
-    public $age;
-    public $phone;
+    protected $name;
+    protected $age;
+    protected $phone;
 
 
     public function getData()

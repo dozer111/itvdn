@@ -21,7 +21,10 @@ class User{
     public function getAge()
     {
         $currentYear = date('Y');
-        $userAge = Calculator::substract($currentYear,$this->birthYear);
+        $userAge = Calculator::substract(
+            $currentYear,
+            $this->birthYear
+        );
         return $userAge;
     }
 }
@@ -29,3 +32,5 @@ class User{
 $user = new User(1995);
 
 var_dump($user->getAge());
+
+

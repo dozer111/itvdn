@@ -39,8 +39,8 @@ class X{
     public function setData44(string $q){}
 
     // 7.1
-    public function setData3(?int $q){}
-    public function setData31(iterable $q){}
+    public function setData3(?int $q): void{}
+    public function setData31(iterable $q): ?string{}
 
     // 7.2
     public function setData4(object $q){}

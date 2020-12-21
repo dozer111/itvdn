@@ -21,6 +21,9 @@ class User{
 
 $user = new User(1995);
 $currentYear = date('Y');
-$userAge = Calculator::substract($currentYear,$user->birthYear);
+$userAge = Calculator::substract(
+    $currentYear,
+    $user->birthYear
+);
 
 var_dump($userAge);

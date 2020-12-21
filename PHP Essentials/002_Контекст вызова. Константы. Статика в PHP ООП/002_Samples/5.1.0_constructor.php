@@ -30,3 +30,8 @@ class User{
 }
 
 $user = new User("Ozzy",123);
+
+var_dump([
+    $user->name,
+    $user->age
+]);

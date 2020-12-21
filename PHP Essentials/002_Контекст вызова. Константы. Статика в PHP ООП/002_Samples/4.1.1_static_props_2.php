@@ -17,3 +17,7 @@ class Dog
 
 echo "In ukraine default cat name is ".Cat::$defaultName;
 echo "In ukraine default dog name is ".Dog::$defaultName;
+
+
+
+

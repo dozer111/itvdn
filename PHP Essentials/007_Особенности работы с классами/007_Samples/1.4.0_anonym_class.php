@@ -18,6 +18,14 @@ class Events
 
 }
 
+$a = new class {
+    public function log()
+    {
+        echo "Log was done at".date('Y-m-d H:I:s')."<br/>";
+    }
+
+};
+
 $event = new Events();
 $event->setLog(new class {
     public function log()

@@ -17,7 +17,6 @@ class Human
     {
         return $this->secret;
     }
-
 }
 
 
